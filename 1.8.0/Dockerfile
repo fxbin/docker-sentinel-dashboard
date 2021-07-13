@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk
-MAINTAINER fxbin123@gmail.com
+LABEL cn.fxbin.image.authors="fxbin123@gmail.com"
 RUN mkdir -p /opt/sentinel
 WORKDIR /opt/sentinel
 EXPOSE 8858
